@@ -1,0 +1,17 @@
+==================================
+=        GO JWT PROJECT         =
+==================================
+Firstly, make sure that you have installed the REST Client extension on your VS Code by Huachao Mao, for testing.
+- create a directory jwt-golang
+- cd jwt-golang
+- go mod init github.com/atayodele/jwt-golang
+- code .
+- create folders such as helpers, models, controllers, database, routes
+- create a main.go file
+    import "fmt"
+
+    func main() {
+        fmt.Println("Yeah, good way to start")
+    }
+ - go get github.com/gin-gonic/gin
+ 
